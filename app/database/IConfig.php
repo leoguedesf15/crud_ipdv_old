@@ -1,6 +1,6 @@
 <?php 
 namespace app\database;
 interface IConfig{
-    public static function get($key);
+    public function get($key);
 }
 ?>

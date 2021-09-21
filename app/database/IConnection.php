@@ -2,6 +2,7 @@
 namespace app\database;
 interface IConnection{
     public function connect();
-    public function closeConnection();
+    public function closeConnection($success);
+   
 }
 ?>

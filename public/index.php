@@ -8,9 +8,10 @@
 </head>
 <body>
     TESTE 1
-    <?php 
-        include 'autoload.php';
-        
-    ?>
+   <?php
+       include '../autoload.php';
+       use app\database\DatabaseConnection;
+       $dbCon = new DatabaseConnection();
+   ?>
 </body>
 </html>
