@@ -1,6 +1,5 @@
 <?php 
 namespace app\database;
-include __DIR__."/../../autoload.php";
 use PDO;
 class DatabaseConnection extends PDO implements IConnection {
     private IConfig $config;

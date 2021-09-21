@@ -1,1 +1,2 @@
-DirectoryIndex public/index.php
+ErrorDocument 404 /crud_ipdv/public/erros/404.html  
+Options -Indexes

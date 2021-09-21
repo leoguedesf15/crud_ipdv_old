@@ -5,6 +5,7 @@
     <li>Criação do Banco - Script de criação em app/database/scripts</li>
     <li>Servidor Apache - de preferência com módulo mod_rewrite habilitado e "AllowOverride All" pra raiz do apache(htdocs,public_html, www, etc.). </li>
     <li>PHP - v 7.4 (versão utilizada - projeto não foi testado em outras versões) com extensão pdo_pgsql habilitada;</li>
+    <li>PgAdmin4 ou qualquer outro gerenciador de banco de dados PostgreSQL</li>
 </ul>
 
 <h2>Implantação</h2>
